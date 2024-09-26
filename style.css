@@ -1,0 +1,100 @@
+body {
+    font-family: Arial, sans-serif;
+    font-size: 12pt;
+    background-color: #eaecb5; 
+    color: #2c3e50; 
+    margin: 20px; 
+}
+
+.header-container {
+    background-color: #8e44ad; 
+    padding: 20px; 
+    text-align: center; 
+}
+
+.header-container h1 {
+    color: white; 
+    margin: 0; 
+}
+
+/* Heading Styling */
+h1 {
+    font-size: 36px;
+    color: #1a5276; 
+}
+
+h2 {
+    font-size: 28px;
+    color: #2980b9; 
+} /* <-- Added missing curly bracket here */
+
+h3 {
+    font-size: 24px;
+    color: #34495e; 
+}
+
+/* Paragraph Styling */
+p {
+    font-size: 14pt;
+    color: #34495e;
+    line-height: 1.6;
+}
+
+/* List Styling */
+ul, ol {
+    font-size: 14pt;
+    color: #34495e;
+}
+
+/* Link Styling */
+a {
+    color: #2980b9; 
+    text-decoration: none;
+}
+
+a:visited {
+    color: #7f8c8d; 
+}
+
+a:hover {
+    color: #1f618d; 
+}
+
+a:active {
+    color: #2e86c1; 
+}
+
+/* Table Styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #2c3e50;
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #1a5276; 
+    color: white;
+}
+
+td {
+    background-color: #f0f4c3; 
+    color: #2c3e50;
+}
+
+/* Container DIV Styling */
+.text-container {
+    padding: 20px;
+    background-color: #ffffff;
+    border: 1px solid #2c3e50; 
+    border-radius: 10px;
+}
+
+.links-container {
+    margin-top: 20px;
+}
