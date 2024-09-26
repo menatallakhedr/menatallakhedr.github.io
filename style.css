@@ -1,0 +1,66 @@
+/* Body */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 12pt;
+    background-color: #d3f9d8; /* light greyish green background */
+    color: #008b8b; /* dark cyan for text */
+    margin: 20px;
+
+
+
+}
+
+/* Heading Styles */
+h1 {
+    font-size: 26pt;
+    color: #004080; /* navy blue for h1 */
+    text-align: center;
+}
+
+h2 {
+    font-size: 22pt;
+    color: #0059b3; /* slightly lighter blue for h2 */
+}
+
+h3 {
+    font-size: 18pt;
+    color: #0066cc; /* even lighter blue for h3 */
+}
+
+/* Paragraph Styles */
+p {
+    font-size: 14pt;
+    color: #404040; /* medium grey */
+    line-height: 1.6;
+}
+
+/* List Styles */
+ul {
+    list-style-type: square;
+}
+
+ol {
+    list-style-type: decimal;
+}
+
+/* Link Styles */
+a:link, a:visited {
+    color: #0080ff; /* light blue for unvisited/visited links */
+    text-decoration: none;
+}
+
+a:hover {
+    color: #ff9933; /* orange for hover */
+    text-decoration: underline;
+}
+
+a:active {
+    color: #ff0000; /* red for active links */
+}
+
+/* Div Styling for Sections */
+div.section {
+    padding: 10px;
+    background-color: #ffffff; /* white background */
+    border: 1px solid #cccccc;
+    margin-bottom: 15px;
